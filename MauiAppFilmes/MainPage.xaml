@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFilmes.MainPage">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+            <GradientStop Color="red" Offset="1.1" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ContentPage.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor"  Value="Transparent" />
+            <Setter Property="TextColor"  Value="Black" />
+            <Setter Property="FontSize"  Value="80"/>
+            <Setter Property="BorderWidth"  Value="2"/>
+            <Setter Property="BorderColor"  Value="Black"/>
+        </Style>
+    </ContentPage.Resources>
+
+
+
+    <ScrollView>
+        <Grid ColumnDefinitions="*,*" RowDefinitions="*,*,*,*,*,*" Padding="5">
+            <Button  Grid.Row="0" Grid.Column="0" x:Name="btn1" Text="Animação" Clicked="btn1_Clicked"></Button>
+            <Button  Grid.Row="1" Grid.Column="0" x:Name="btn2" Text="Aventura" Clicked="btn2_Clicked"></Button>
+            <Button  Grid.Row="2" Grid.Column="0" x:Name="btn3" Text="Comédia" Clicked="btn3_Clicked"></Button>
+            <Button  Grid.Row="3" Grid.Column="0" x:Name="btn4" Text="Documentário" Clicked="btn4_Clicked"></Button>
+            <Button  Grid.Row="4" Grid.Column="0" x:Name="btn5" Text="Drama" Clicked="btn5_Clicked"></Button>
+            <Button  Grid.Row="5" Grid.Column="0" x:Name="btn6" Text="Ficção Científica" Clicked="btn6_Clicked"></Button>
+
+            <Button  Grid.Row="0" Grid.Column="1" x:Name="btn7" Text="Infantil" Clicked="btn7_Clicked"></Button>
+            <Button  Grid.Row="1" Grid.Column="1" x:Name="btn8" Text="Guerra" Clicked="btn8_Clicked"></Button>
+            <Button  Grid.Row="2" Grid.Column="1" x:Name="btn9" Text="Nacional" Clicked="btn9_Clicked"></Button>
+            <Button  Grid.Row="3" Grid.Column="1" x:Name="btn10" Text="Romance" Clicked="btn10_Clicked"></Button>
+            <Button  Grid.Row="4" Grid.Column="1" x:Name="btn11" Text="Suspense" Clicked="btn11_Clicked"></Button>
+            <Button  Grid.Row="5" Grid.Column="1" x:Name="btn12" Text="Terror" Clicked="btn12_Clicked"></Button>
+            
+
+
+
+
+
+
+
+        </Grid>
+        
+    </ScrollView>
+
+</ContentPage>
