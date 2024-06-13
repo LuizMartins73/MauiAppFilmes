@@ -6,10 +6,10 @@
     <ScrollView>
         <VerticalStackLayout>
             <Grid ColumnDefinitions="300,300,300" RowDefinitions="*,*" Padding="2">
-                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="abtn1" Source="aventura1.jpg"  ></ImageButton>
-                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="abtn2" Source="aventura2.jpg"></ImageButton>
-                <ImageButton Grid.Row="1" Grid.Column="0" x:Name="abtn3" Source="aventura3.jpg"></ImageButton>
-                <ImageButton Grid.Row="1" Grid.Column="1" x:Name="abtn4" Source="aventura4.jpg" ></ImageButton>
+                <ImageButton Grid.Row="0" Grid.Column="0" x:Name="abtna1" Clicked="abtna1_Clicked" Source="aventura1.jpg"  ></ImageButton>
+                <ImageButton Grid.Row="0" Grid.Column="1" x:Name="abtna2" Clicked="abtna2_Clicked" Source="aventura2.jpg"></ImageButton>
+                <ImageButton Grid.Row="1" Grid.Column="0" x:Name="abtna3" Clicked="abtna3_Clicked" Source="aventura3.jpg"></ImageButton>
+                <ImageButton Grid.Row="1" Grid.Column="1" x:Name="abtna4" Clicked="abtna4_Clicked" Source="aventura4.jpg" ></ImageButton>
             </Grid>
 
         </VerticalStackLayout>

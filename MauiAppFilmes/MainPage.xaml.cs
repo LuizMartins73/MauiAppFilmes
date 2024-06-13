@@ -63,12 +63,26 @@
 
         private void btn7_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new categorias.infantil());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Error", ex.Message, "OK");
+            }
         }
 
         private void btn8_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new cateogorias.guerra());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Error", ex.Message, "OK");
+            }
         }
 
         private void btn9_Clicked(object sender, EventArgs e)

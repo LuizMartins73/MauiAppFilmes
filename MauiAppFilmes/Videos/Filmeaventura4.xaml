@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFilmes.Videos.Filmeaventura4"
+             Title="Filmeaventura4">
+    <Grid RowDefinitions=" *, *" ColumnDefinitions="*">
+        <WebView Grid.Column="0" Grid.Row="0"
+                 Source="https://www.youtube.com/watch?v=8kAC_E0H5nc">
+
+        </WebView>
+    </Grid>
+</ContentPage>
